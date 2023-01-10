@@ -6,5 +6,5 @@ function sayhello(name){
 // calling a funciton
 sayhello();
 // refering a function
-sayhello;
+sayhello('rohan');
 
