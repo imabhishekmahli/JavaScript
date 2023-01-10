@@ -20,3 +20,6 @@ function getUserRole(name , role){
 }
 
 console.log(getUserRole('abhishek','user'))
+
+var getrole = getUserRole('rohan', 'admin')
+console.log(getrole)
