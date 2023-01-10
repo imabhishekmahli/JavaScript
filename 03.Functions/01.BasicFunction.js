@@ -5,7 +5,15 @@ function sayhello(name){
 }
 
 // calling a funciton
-sayhello();
-// refering a function
-sayhello('rohan');
+// sayhello();
+// // refering a function
+// sayhello('rohan');
+
+
+function namstey(){
+    return "hello India";
+}
+
+var greeting = namstey();
+console.log(greeting);
 
