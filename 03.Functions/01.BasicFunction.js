@@ -1,9 +1,10 @@
-function sayhello(){
-    console.log('hello there, abhishek this side.')
+function sayhello(name){
+    console.log('hello there, abhishek this side.');
+    console.log('hello there',name);
 }
 
 // calling a funciton
-sayhello()
+sayhello();
 // refering a function
-sayhello
+sayhello;
 
