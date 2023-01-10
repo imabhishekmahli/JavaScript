@@ -1,4 +1,4 @@
-var whoishere = 'hie'
+var whoishere = 'user'
 
 if(whoishere == 'user'){
     console.log('greeting message for user')
