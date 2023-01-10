@@ -11,3 +11,4 @@ console.log(displayDiscountPercentage + "% off")
 var results = listingPrice > sellingPrice
 
 console.log(results)
+console.log(typeof results)
