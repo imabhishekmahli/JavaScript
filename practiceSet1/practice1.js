@@ -11,5 +11,6 @@ const x = {
     name : 'abhishek',
     age : 25
 }
-x = 35
+//x = 35
+x['friend'] = 'shubham'
 console.log(x)
