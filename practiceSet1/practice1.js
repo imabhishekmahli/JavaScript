@@ -14,3 +14,12 @@ const x = {
 //x = 35
 x['friend'] = 'shubham'
 console.log(x)
+
+//Q5. write a JS program to create a word-meaning of 5 words.
+const dict = {
+    abhi :"abhishek kumar",
+    ro :"rohan kumar",
+    ma:"mahli mahli"
+}
+
+console.log(dict.ro)
