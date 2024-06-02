@@ -12,3 +12,11 @@ enhance my existing Chrome
 
 Problem => Human Instructions => 1001001010111001 => Solve
 Syntax??? structure of words in a sentence, Rule of language.
+
+
+------- FrontEnd / BackEnd / FullStack --------
+
+------- Role of Browser --------
+Download the HTML,CSS,JS file and then render it.
+which helps in interacting with the web page.
+Allow updates in web page
