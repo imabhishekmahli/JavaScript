@@ -1,0 +1,5 @@
+--------JS in console--------
+1. Real time editin
+2. Run Scripts
+3. Debug
+4. Modify DOM 
