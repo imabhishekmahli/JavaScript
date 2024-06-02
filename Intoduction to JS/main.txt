@@ -2,4 +2,4 @@
 1. Real time editin
 2. Run Scripts
 3. Debug
-4. Modify DOM 
+4. Modify DOM --> Can change HTML, CSS, Perform Action
