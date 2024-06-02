@@ -3,3 +3,12 @@
 2. Run Scripts
 3. Debug
 4. Modify DOM --> Can change HTML, CSS, Perform Action
+
+-------- Chrome Extentions ---------
+enhance my existing Chrome
+
+
+======= Programming Language =======
+
+Problem => Human Instructions => 1001001010111001 => Solve
+Syntax??? structure of words in a sentence, Rule of language.
