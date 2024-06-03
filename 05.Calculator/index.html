@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <input type="text" class="items" readonly>
+        <div class="buttons">
+            <button id="clear" onclick="currentDisplay='';document.querySelector('.items').value=`${currentDisplay}`">C</button>
+            <button id="one" onclick="currentDisplay = currentDisplay + '1';document.querySelector('.items').value=`${currentDisplay}`">1</button>
+            <button id="two" onclick="currentDisplay = currentDisplay + '2';document.querySelector('.items').value=`${currentDisplay}`">2</button>
+        </div>
+        <div class="buttons">
+            <button id="plus" onclick="currentDisplay = currentDisplay + '+';document.querySelector('.items').value=`${currentDisplay}`">+</button>
+            <button id="three" onclick="currentDisplay = currentDisplay + '3';document.querySelector('.items').value=`${currentDisplay}`">3</button>
+            <button id="four" onclick="currentDisplay = currentDisplay + '4';document.querySelector('.items').value=`${currentDisplay}`">4</button>
+        </div>
+        <div class="buttons">
+            <button id="minus" onclick="currentDisplay = currentDisplay + '-';document.querySelector('.items').value=`${currentDisplay}`">-</button>
+            <button id="five" onclick="currentDisplay = currentDisplay + '5';document.querySelector('.items').value=`${currentDisplay}`">5</button>
+            <button id="six" onclick="currentDisplay = currentDisplay + '6';document.querySelector('.items').value=`${currentDisplay}`">6</button>
+        </div>
+        <div class="buttons">
+            <button id="multiply" onclick="currentDisplay = currentDisplay + '*';document.querySelector('.items').value=`${currentDisplay}`">*</button>
+            <button id="seven" onclick="currentDisplay = currentDisplay + '7';document.querySelector('.items').value=`${currentDisplay}`">7</button>
+            <button id="eight" onclick="currentDisplay = currentDisplay + '8';document.querySelector('.items').value=`${currentDisplay}`">8</button>
+        </div>
+        <div class="buttons">
+            <button id="divide" onclick="currentDisplay = currentDisplay + '/';document.querySelector('.items').value=`${currentDisplay}`">/</button>
+            <button id="equal" onclick="currentDisplay = eval(currentDisplay);document.querySelector('.items').value=`${currentDisplay}`">=</button>
+            <button id="nine" onclick="currentDisplay = currentDisplay + '9';document.querySelector('.items').value=`${currentDisplay}`">9</button>
+        </div>
+        <div class="buttons">
+            <button id="zero" onclick="currentDisplay = currentDisplay + '0';document.querySelector('.items').value=`${currentDisplay}`">0</button>
+            <button id="decimal" onclick="currentDisplay = currentDisplay + '.';document.querySelector('.items').value=`${currentDisplay}`">.</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
