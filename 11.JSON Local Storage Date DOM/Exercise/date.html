@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>greeings as per time</title>
+</head>
+<body>
+    <h1 id="greetings"></h1>
+    <script>
+        let date = new Date();
+        let hours = date;
+        let heading = document.querySelector('#greetings');
+    
+        if(hours>5 && hours<12){
+            heading.innerHTML = 'Good Morning';
+        }else if(hours>12 && hours<18){
+            heading.innerHTML = 'Good Afternoon';
+        }else{
+            heading.innerHTML = 'Good Night';
+        }
+    </script>
+</body>
+</html>
