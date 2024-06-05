@@ -7,25 +7,48 @@
 </head>
 <body>
     <script>
-        let student = {
-            firstName : 'abhishek',
-            lastName : 'mahli',
-            age : 25,
-            qualification : 'BTech'
+        // let student = {
+        //     firstName : 'abhishek',
+        //     lastName : 'mahli',
+        //     age : 25,
+        //     qualification : 'BTech'
+        // }
+
+        // console.log(student);
+        // let str = JSON.stringify(student);
+        // console.log(str);
+
+        // let newProduct = JSON.parse(str)
+        // console.log(newProduct);
+
+        // // ------------------------------------------------------------------------
+        // localStorage.setItem('Name','Abhishek kumar')
+        // localStorage.setItem('age','25')
+
+        // console.log(localStorage.getItem('age'))
+
+
+        // q1. create an object than convert into string than store into local storage 
+        let world = {
+            russia : 'moscow',
+            uk : 'london',
+            bangladesh : 'dhaka',
+            india : {
+                jharkhand : 'ranchi',
+                karnataka : 'bangalore',
+                maharashtra : 'mumbai',
+            }
         }
+        // console.log(world);
 
-        console.log(student);
-        let str = JSON.stringify(student);
-        console.log(str);
+        let str = JSON.stringify(world);
+        // console.log(str);
 
-        let newProduct = JSON.parse(str)
-        console.log(newProduct);
+        let obj = JSON.parse(str);
+        // console.log(obj);
 
-        // ------------------------------------------------------------------------
-        localStorage.setItem('Name','Abhishek kumar')
-        localStorage.setItem('age','25')
-
-        console.log(localStorage.getItem('age'))
+        localStorage.setItem('world',JSON.stringify(world));
+        console.log(localStorage.getItem('world'));
     </script>
 </body>
 </html>
