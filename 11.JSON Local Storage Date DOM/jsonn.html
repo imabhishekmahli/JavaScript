@@ -17,6 +17,15 @@
         console.log(student);
         let str = JSON.stringify(student);
         console.log(str);
+
+        let newProduct = JSON.parse(str)
+        console.log(newProduct);
+
+        // ------------------------------------------------------------------------
+        localStorage.setItem('Name','Abhishek kumar')
+        localStorage.setItem('age','25')
+
+        console.log(localStorage.getItem('age'))
     </script>
 </body>
 </html>
