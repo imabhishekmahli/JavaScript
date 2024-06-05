@@ -3,21 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Object</title>
+    <title>Nested Object</title>
 </head>
 <body>
     <script>
         let product = {
             mobile : 'iPhone',
-            bike : 'Harley',
             laptop : 'mac',
+            tshirt : 'Adidas',
+            rating : {
+                stars : 4.5,
+                reviews : 6969
+            }
         }
+
         console.log(product);
-        console.log(product.mobile)
-        console.log(product['bike']);
-        console.log(product);
-        delete product.laptop; 
-        console.log(product);
+        console.log(product['tshirt'])
+        console.log(product.rating.reviews)
+        console.log(product['rating']['stars'])
     </script>
 </body>
 </html>
