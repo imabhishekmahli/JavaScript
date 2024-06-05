@@ -49,6 +49,10 @@
 
         localStorage.setItem('world',JSON.stringify(world));
         console.log(localStorage.getItem('world'));
+
+        localStorage.removeItem('uk') // to remove a particular item
+        console.log(localStorage.getItem('world'));  
+        localStorage.clear()  // to delete all from the storage
     </script>
 </body>
 </html>
