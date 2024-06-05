@@ -8,17 +8,21 @@
 <body>
     <h1 id="greetings"></h1>
     <script>
-        let date = new Date();
+
+        function doGreeting(name){
+            let date = new Date();
         let hours = date;
         let heading = document.querySelector('#greetings');
     
         if(hours>5 && hours<12){
-            heading.innerHTML = 'Good Morning';
+            heading.innerHTML = `Good Morning ${name}`;
         }else if(hours>12 && hours<18){
-            heading.innerHTML = 'Good Afternoon';
+            heading.innerHTML = `Good Afternoon ${name}`;
         }else{
-            heading.innerHTML = 'Good Night';
+            heading.innerHTML = `Good Night ${name}`;
         }
+        }
+        doGreeting('abhishek kumar')
     </script>
 </body>
 </html>
